@@ -1,0 +1,5 @@
+commit 940cf8aed7fa276bb048a2baa44b74d14a05bd34
+Author: vitormelo260 <vitormelo260@usp.br>
+Date:   Mon Nov 17 15:16:26 2025 +0000
+
+    Entrega Prática 5
