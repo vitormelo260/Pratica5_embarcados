@@ -1,0 +1,11 @@
+[Unit]
+Description = Blink LED com Python
+After = multi-user.target
+
+[Service]
+ExecStart=/home/sel/VitorJoao/9984/bin/python3  /home/sel/VitorJoao/9984/blinkled_rpigpio.py
+ExecStop=/home/sel/VitorJoao/9984/bin/python3 /home/sel/VitorJoao/9984/blink_stop_led.py
+User=sel
+
+[Install]
+WantedBy=multi-user.target
