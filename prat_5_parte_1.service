@@ -1,11 +1,11 @@
 [Unit]
-Description = Blink LED com Python
-After = multi-user.target
+Description = Blink LED com Python #Nome para o serviço, aparece na inicialização do boot.
+After = multi-user.target #Garante que o serviço inicialize depois do sistema linux e que esteja em estado par múltiplos usuários.
 
 [Service]
-ExecStart=/home/sel/VitorJoao/9984/bin/python3  /home/sel/VitorJoao/9984/blinkled_rpigpio.py
-ExecStop=/home/sel/VitorJoao/9984/bin/python3 /home/sel/VitorJoao/9984/blink_stop_led.py
-User=sel
+ExecStart=/home/sel/VitorJoao/9984/bin/python3  /home/sel/VitorJoao/9984/blinkled_rpigpio.py #O systemd executa esse comando para inicializar o serviço, faz com que o arquivo blinkled_rpigpio.py seja executado pelo interpretador Python 3.
+ExecStop=/home/sel/VitorJoao/9984/bin/python3 /home/sel/VitorJoao/9984/blink_stop_led.py #O systemd executa esse comando quando o serviço é finalizado, faz com que o arquivo blink_stop_led.py seja executado pelo interpretador Python 3.
+User=sel #define o usuário do sistema em que o arquivo será executado
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=multi-user.target #Define onde o serviço deve ser iniciado no sistema, ao inicializar o 'systemctl enable', ele criará caminhos para que o serviço inicialize juntamente com o 'multi-user.target'. (Fará com que o led comece a piscar quando o sistema inicializar, uma vez que o blinkled_rpigpio.py será "chamado".
