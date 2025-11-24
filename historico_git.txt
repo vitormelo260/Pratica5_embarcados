@@ -1,3 +1,9 @@
+commit 39fd904575a06f8afe8a7e0f850ab7da0a9b37c5
+Author: vitormelo260 <vitormelo260@usp.br>
+Date:   Mon Nov 24 12:12:46 2025 +0000
+
+    Atualizando historico
+
 commit e224a4f93b7ff567e76dcbea03ec0e66a196fdb7
 Author: vitormelo260 <vitormelo260@usp.br>
 Date:   Fri Nov 21 16:46:53 2025 -0300
