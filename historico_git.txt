@@ -1,3 +1,39 @@
+commit e224a4f93b7ff567e76dcbea03ec0e66a196fdb7
+Author: vitormelo260 <vitormelo260@usp.br>
+Date:   Fri Nov 21 16:46:53 2025 -0300
+
+    Update README.md
+
+commit e3b90aa623a9fffb2e5b9399c61ed36fc1cdde06
+Author: vitormelo260 <vitormelo260@usp.br>
+Date:   Fri Nov 21 16:10:55 2025 -0300
+
+    Update prat_5_parte_1.service
+
+commit 12658f918822fe1e8a539267dec8a8d905c2017e
+Author: vitormelo260 <vitormelo260@usp.br>
+Date:   Fri Nov 21 15:50:38 2025 -0300
+
+    Update blinkled_rpigpio.py
+
+commit b9aaecec0ecdbacb2c37c2b8e17c50fa632986aa
+Author: vitormelo260 <vitormelo260@usp.br>
+Date:   Fri Nov 21 15:15:59 2025 -0300
+
+    Update blink_stop_led.py
+
+commit 18a6c1c7d5c18de2322d2a1eb1e7b1a908b3065c
+Author: vitormelo260 <vitormelo260@usp.br>
+Date:   Fri Nov 21 15:11:24 2025 -0300
+
+    Update blink.sh
+
+commit 5ae0be074127a0e11e24d86288773577dcdfe2e7
+Author: vitormelo260 <vitormelo260@usp.br>
+Date:   Mon Nov 17 15:24:01 2025 +0000
+
+    historico
+
 commit 940cf8aed7fa276bb048a2baa44b74d14a05bd34
 Author: vitormelo260 <vitormelo260@usp.br>
 Date:   Mon Nov 17 15:16:26 2025 +0000
