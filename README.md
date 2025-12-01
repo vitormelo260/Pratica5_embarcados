@@ -1,6 +1,7 @@
 # Prática 5 
 ## Alunos:
 Vitor Gabriel Saturnino de Melo nº:14611599
+
 João Pedro Muto Cisotto nº:14761684
 # Parte 1
 Esta Prática temcomo objetivo configurar um serviço systemd, para que scripts sejam rodados juntamente com a inicialização. Para isso, inicialmente foi desenvolvidos dois arquivos em Python, um para realizar o "blink" de um led no GPIO18 e posteriormente um que iria fazer que o led que estava realizando o "blink" fosse desligado e outro led, conectado no GPIO17 fosse ligado. Sendo os arquivos resposáveis por tais execuções: blinkled_rpigpio.py e blink_stop_led.py, respectivamente, estando eles disponibilizados no repositório do github.
